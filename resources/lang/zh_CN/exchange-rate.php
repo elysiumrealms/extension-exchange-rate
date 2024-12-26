@@ -2,6 +2,7 @@
 return [
     'labels' => [
         'ExchangeRate' => '汇率',
+        'title' => '汇率设置',
     ],
     'fields' => [
         'base' => '基准货币',
@@ -12,6 +13,10 @@ return [
     'options' => [
         'tools' => [
             'refresh' => '更新汇率',
+        ],
+        'settings' => [
+            'title' => '汇率设置',
+            'symbols' => '货币符号',
         ],
         'messages' => [
             'succeeded' => '汇率更新成功',

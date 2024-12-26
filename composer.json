@@ -1,10 +1,10 @@
 {
-    "name": "dcat-admin/exchange-rate",
+    "name": "elysiumrealms/exchange-rate",
     "alias": "",
     "description": "Dcat Admin 匯率擴展",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
-    "homepage": "https://github.com/dcat-admin/exchange-rate",
+    "homepage": "https://github.com/elysiumrealms/extensions-exchange-rate",
     "license": "MIT",
     "authors": [
         {

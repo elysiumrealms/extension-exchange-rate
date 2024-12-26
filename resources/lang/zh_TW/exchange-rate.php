@@ -13,6 +13,10 @@ return [
         'tools' => [
             'refresh' => '更新匯率',
         ],
+        'settings' => [
+            'title' => '匯率設置',
+            'symbols' => '貨幣符號',
+        ],
         'messages' => [
             'succeeded' => '匯率更新成功',
         ]
