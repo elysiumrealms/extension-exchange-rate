@@ -1,5 +1,5 @@
 {
-    "name": "dcat-admin/exchange-rate",
+    "name": "elysiumrealms/extension-exchange-rate",
     "alias": "",
     "description": "Dcat Admin 匯率擴展",
     "type": "library",
