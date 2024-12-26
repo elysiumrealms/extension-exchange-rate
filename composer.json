@@ -1,0 +1,32 @@
+{
+    "name": "dcat-admin/exchange-rate",
+    "alias": "",
+    "description": "Dcat Admin 匯率擴展",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/dcat-admin/exchange-rate",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "deflinhec",
+            "email": "deflinhec@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dcat\\Admin\\ExchangeRate\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "Dcat\\Admin\\ExchangeRate\\ExchangeRateServiceProvider",
+        "laravel": {
+            "providers": [
+                "Dcat\\Admin\\ExchangeRate\\ExchangeRateServiceProvider"
+            ]
+        }
+    }
+}

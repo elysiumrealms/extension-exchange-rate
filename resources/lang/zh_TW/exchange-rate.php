@@ -1,0 +1,20 @@
+<?php
+return [
+    'labels' => [
+        'ExchangeRate' => '匯率',
+    ],
+    'fields' => [
+        'base' => '基準貨幣',
+        'quote' => '報價貨幣',
+        'rate' => '匯率值',
+        'updated_at' => '最後更新時間',
+    ],
+    'options' => [
+        'tools' => [
+            'refresh' => '更新匯率',
+        ],
+        'messages' => [
+            'succeeded' => '匯率更新成功',
+        ]
+    ],
+];
