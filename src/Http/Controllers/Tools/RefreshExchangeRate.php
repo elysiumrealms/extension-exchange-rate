@@ -39,7 +39,7 @@ class RefreshExchangeRate extends AbstractTool
 
         return $this->response()
             ->success(ExchangeRateServiceProvider::trans(
-                'exchange-rate.options.messages.success',
+                'exchange-rate.options.messages.succeeded',
             ))
             ->refresh();
     }
